@@ -1,19 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://0xgun.github.io/cleanfolio',
+  title: 'gm',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Ganeshan M',
+  role: 'Front End Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  "I'm a Front End Developer with a passion for creating scalable and responsive web applications. I'm dedicated to staying current with the latest technologies and eager to contribute my skills to exciting projects in the field of web development.",
+  resume: 'https://drive.google.com/file/d/1EtIolgA9V3eoO2KlJ1ANvzbIAwGxp6ib/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/mganeshan/',
+    github: 'https://github.com/0xgun',
+    twitter: 'https://twitter.com/0xgunm',
   },
 }
 
@@ -21,28 +22,44 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'CRYPTOKET',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'CryptoKet is a Web3 Full stack NFT marketplace where users can mint their pictures as NFT, list their NFTs for sale, and as well buy NFTs from other users.',
+    stack: ['React', 'CSS', 'Solidity','IPFS'],
+    sourceCode: 'https://github.com/0xgun/NFT-MarketPlace',
+    livePreview: 'https://github.com/0xgun/NFT-MarketPlace',
   },
   {
-    name: 'Project 2',
+    name: 'GITHUB-EXPLORER',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Developed a dynamic React application that interacts with the GitHub API to enable users to search for GitHub users and showcase their repositories. Allowing users to effortlessly arrange search results by stars or forks, enhancing the exploration experience.',
+    stack: ['React', 'REST API', 'CSS' ,'Material UI'],
+    sourceCode: 'https://github.com/0xgun/github-explorer',
+    livePreview: 'https://github-explorer-orpin.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'MOVIE SURF',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Movie Surf is a fully functional, flexible and convenient application and a user friendly interface which provides a good user experience for watching movies',
+    stack: ['Python ', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/0xgun/movieapp',
+    livePreview: 'https://github.com/0xgun/movieapp',
+  },
+  {
+    name: 'DASH STOCK',
+    description:
+      'Web based stock Visualizer and Forecasting',
+    stack: ['Python ', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/0xgun/dash-stocks',
+    livePreview: 'https://github.com/0xgun/dash-stocks',
+  },
+  {
+    name: 'Empoyee DashBoard',
+    description:
+      "This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee's data according to their attributes i.e Name,Age,Salary.",
+    stack: ['Python ', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/0xgun/employee-dashboard',
+    livePreview: 'https://github.com/0xgun/employee-dashboard',
   },
 ]
 
@@ -58,14 +75,16 @@ const skills = [
   'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
+  'Python',
   'Jest',
-  'Enzyme',
+  'Java',
+  'SQL',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ganeshanmadesh36@gmail.com',
 }
+
 
 export { header, about, projects, skills, contact }
